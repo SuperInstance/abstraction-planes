@@ -1,0 +1,43 @@
+Metadata-Version: 2.4
+Name: abstraction-planes
+Version: 0.1.0
+Summary: Determines optimal decomposition depth for components using a 6-plane stack from Intent to Metal
+Author-email: Cocapn <cocapn@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/SuperInstance/abstraction-planes
+Project-URL: Documentation, https://github.com/SuperInstance/abstraction-planes#readme
+Project-URL: Repository, https://github.com/SuperInstance/abstraction-planes
+Project-URL: Issues, https://github.com/SuperInstance/abstraction-planes/issues
+Keywords: abstraction,decomposition,flux,maritime,embedded,code-generation
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: pytest-mock; extra == "dev"
+Requires-Dist: responses; extra == "dev"
+Dynamic: license-file
+
+# Abstraction Planes
+Simplify complex systems with a 6-plane stack from Intent to Metal.
+
+[![Build Status](https://img.shields.io/travis/SuperInstance/abstraction-planes)](https://travis-ci.org/SuperInstance/abstraction-planes)
+[![License](https://img.shields.io/github/license/SuperInstance/abstraction-planes)](LICENSE)
+[![Fleet Status](https://img.shields.io/badge/fleet-status-active)](https://fleet.cocapn.io)
+
+* Provides a structured approach to system design
+* Identifies the "sweet spot" for abstraction (Plane 4)
+* Offers a Guide, Reference, and Analyzer for implementation
+
+Quick start: Explore the repo and start with Plane 4.
+
+Architecture: A 6-plane stack from Intent to Metal, with Plane 4 as the primary focus.
+
+[![Cocapn Fleet](https://img.shields.io/badge/cocapn-fleet-member)](https://fleet.cocapn.io)
